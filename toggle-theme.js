@@ -1,24 +1,19 @@
-let button = document.getElementById("toggle-theme-button");
+const button = document.getElementById("toggle-theme-button");
 
 button.addEventListener("click", () => {
+
   let navbar = document.getElementById("myNavbar");
-  let youtubeVideo = document.getElementById("youtube-video");
 
   navbar.classList.toggle("bg-light");
   navbar.classList.toggle("bg-dark");
   navbar.classList.toggle("navbar-light");
   navbar.classList.toggle("navbar-dark");
 
-  youtubeVideo.classList.toggle("bg-light");
-  youtubeVideo.classList.toggle("bg-dark");
-  youtubeVideo.classList.toggle("text-dark");
-  youtubeVideo.classList.toggle("text-light");
-
   if (navbar.className.includes("navbar-light")) {
-    button.innerHTML =
+    document.body.style.backgroundColor = "#F8F9FA";
     button.src = "./images/moon-icon.svg"
   } else {
-    button.innerHTML =
+    document.body.style.backgroundColor = "#C7C8C9";
     button.src = "./images/sun-color-icon.svg"
   }
 });

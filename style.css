@@ -1,5 +1,5 @@
-:root {
-  color-scheme: light dark;
+body {
+  background-color: #C7C8C9;
 }
 
 body.container-xl {
@@ -32,6 +32,10 @@ section {
 #myBrand {
   font-family: 'Dancing Script', cursive;
   transform: rotate(-10deg);
+}
+
+#my-bio {
+  flex-direction: column;
 }
 
 @media (max-width: 576px) {
