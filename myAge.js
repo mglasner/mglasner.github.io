@@ -12,3 +12,6 @@ function getAge(dateString) {
 const mgvAge = "November 6, 1985"
 const ageSpan = document.getElementById("my-age")
 ageSpan.innerHTML = getAge(mgvAge)
+
+
+
