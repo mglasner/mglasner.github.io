@@ -1,0 +1,51 @@
+:root {
+  color-scheme: light dark;
+}
+
+body.container-xl {
+  padding: 0;
+}
+
+li {
+  overflow: auto;
+  white-space: nowrap;
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+}
+
+section {
+  margin: 20px;
+}
+
+#resume img {
+  border-radius: 50%;
+  border: 3px solid #212529;
+}
+
+#youtube-video {
+  width: 90%;
+}
+
+#myBrand {
+  font-family: 'Dancing Script', cursive;
+  transform: rotate(-10deg);
+}
+
+@media (max-width: 576px) {
+  #toggle-theme-button {
+    float: none !important;
+    text-align: center;
+  }
+
+  #myNavbar {
+    text-align: center;
+  }
+
+  #myNavbar div {
+    justify-content: center;
+  }
+
+}
