@@ -68,16 +68,14 @@ section {
   max-height: 250px;
 }
 
-.project-description {
-  /* border-left: 1px solid #212529;
-  border-top: 1px solid #212529;
-  border-bottom: 1px solid #212529; */
-  /* border: 1px groove #212529; */
-  /* border: 1px double #212529; */
-  border: 1px inset #212529;
+
+hr {
+  margin: 1rem 0;
+  color: inherit;
+  background-color: currentColor;
+  border: 0;
+  opacity: 0.25;
 }
-
-
 
 
 @media (max-width: 766px) {
