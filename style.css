@@ -27,7 +27,7 @@ section {
 }
 
 #youtube-video {
-  width: 90%;
+  width: 66%;
 }
 
 #myBrand {
@@ -52,6 +52,16 @@ section {
 .contact-links:hover {
   transform: scale(1.01);
   font-weight: 900;
+}
+
+@media (max-width: 766px) {
+  #my-bio {
+    font-size: 14px;
+  }
+
+  #resume img {
+    width: 75%;
+  }
 }
 
 @media (max-width: 576px) {
@@ -80,6 +90,10 @@ section {
     display: grid;
     flex-direction: column;
 
+  }
+
+  #my-bio p {
+    padding: 20px
   }
 
 }
