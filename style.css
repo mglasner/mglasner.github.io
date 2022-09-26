@@ -1,5 +1,6 @@
 body {
   background-color: #C7C8C9;
+  font-family: 'Noto Sans Mono', monospace;
 }
 
 body.container-xl {
@@ -39,6 +40,20 @@ section {
   text-align: justify;
 }
 
+
+.nav-link img:hover {
+  transform: scale(1.75);
+}
+
+.contact-links {
+  display: inline-block;
+}
+
+.contact-links:hover {
+  transform: scale(1.01);
+  font-weight: 900;
+}
+
 @media (max-width: 576px) {
   #toggle-theme-button {
     float: none !important;
@@ -55,6 +70,16 @@ section {
 
   #resume img {
     width: 50%;
+  }
+
+  .contact-icon {
+    display: inline-block
+  }
+
+  #myFooter.contact-links {
+    display: grid;
+    flex-direction: column;
+
   }
 
 }
