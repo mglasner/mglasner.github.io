@@ -54,7 +54,8 @@ section {
   display: inline-block;
 }
 
-.contact-links:hover {
+.contact-links:hover,
+.project-description h5 a:hover {
   transform: scale(1.01);
   font-weight: 900;
 }
