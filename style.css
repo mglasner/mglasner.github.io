@@ -77,6 +77,10 @@ hr {
   opacity: 0.25;
 }
 
+.project-description h5 {
+  font-size: 12px;
+}
+
 
 @media (max-width: 992px) {
   .project-screenshot img {
